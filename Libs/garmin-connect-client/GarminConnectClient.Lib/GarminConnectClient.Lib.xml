@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>GarminConnectClient.Lib</name>
+        <name>LSGarminConnectClient.Lib</name>
     </assembly>
     <members>
         <member name="T:GarminConnectClient.Lib.Configuration">

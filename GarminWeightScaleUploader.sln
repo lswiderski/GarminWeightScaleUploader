@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A64DBD68
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GarminWeightScaleUploader.Lib.Tests", "tests\GarminWeightScaleUploader.Lib.Tests\GarminWeightScaleUploader.Lib.Tests.csproj", "{AFCD42CF-7A3E-4AD0-ACC1-5A8EC73C9BB1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GarminConnectClient.Lib", "Libs\garmin-connect-client\GarminConnectClient.Lib\GarminConnectClient.Lib.csproj", "{318BD0C3-844C-4868-8E68-701DD7B2431F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSGarminConnectClient.Lib", "Libs\garmin-connect-client\GarminConnectClient.Lib\LSGarminConnectClient.Lib.csproj", "{318BD0C3-844C-4868-8E68-701DD7B2431F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

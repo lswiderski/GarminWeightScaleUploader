@@ -18,7 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Libs\garmin-connect-client\GarminConnectClient.Lib\GarminConnectClient.Lib.csproj" />
+      <ProjectReference Include="..\..\Libs\garmin-connect-client\GarminConnectClient.Lib\LSGarminConnectClient.Lib.csproj" />
       <ProjectReference Include="..\..\src\GarminWeightScaleUploader.Lib\GarminWeightScaleUploader.Lib.csproj" />
     </ItemGroup>
     <ItemGroup>

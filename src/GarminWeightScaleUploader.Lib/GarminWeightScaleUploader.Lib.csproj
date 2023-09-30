@@ -2,14 +2,14 @@
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
         <PackageOutputPath>..\..\nupack</PackageOutputPath>
-        <PackageId>GarminWeightScaleUploader.Library</PackageId>
-        <Authors>Abász</Authors>
-        <Company>Abász</Company>
+        <PackageId>LSGarminWeightScaleUploader.Library</PackageId>
+        <Authors>lswiderski</Authors>
+        <Company>lswiderski</Company>
         <PackageTags>Garmin; Weight Scale; Uploader</PackageTags>
         <Description>
             The purpose of this class library to provide a simple API for interfacing garmin connect to upload weight scale data.
         </Description>
-        <RepositoryURL>https://github.com/Abasz/GarminWeightScaleUploader</RepositoryURL>
+        <RepositoryURL>https://github.com/lswiderski/GarminWeightScaleUploader/</RepositoryURL>
         <RepositoryType>git</RepositoryType>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -19,7 +19,8 @@
         <LangVersion>latest</LangVersion>
         <Nullable>enable</Nullable>
         <NoWarn>$(NoWarn);1591</NoWarn>
-        <Version>0.2.1</Version>
+        <Version>0.3.2</Version>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
@@ -40,7 +41,7 @@
         </PackageReference>
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\..\Libs\garmin-connect-client\GarminConnectClient.Lib\GarminConnectClient.Lib.csproj" />
+      <ProjectReference Include="..\..\Libs\garmin-connect-client\GarminConnectClient.Lib\LSGarminConnectClient.Lib.csproj" />
     </ItemGroup>
 
     <ItemGroup>

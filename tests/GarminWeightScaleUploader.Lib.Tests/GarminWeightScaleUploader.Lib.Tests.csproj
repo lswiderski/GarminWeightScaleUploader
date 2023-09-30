@@ -10,11 +10,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0"/>
-        <PackageReference Include="xunit" Version="2.4.2"/>
-        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5"/>
-        <PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
-        <PackageReference Include="coverlet.msbuild" Version="3.1.2"/>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+        <PackageReference Include="xunit" Version="2.4.2" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+        <PackageReference Include="coverlet.msbuild" Version="3.1.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Libs\garmin-connect-client\GarminConnectClient.Lib\GarminConnectClient.Lib.csproj" />
+      <ProjectReference Include="..\..\src\GarminWeightScaleUploader.Lib\GarminWeightScaleUploader.Lib.csproj" />
     </ItemGroup>
     <ItemGroup>
         <Reference Include="Fit, Culture=neutral">
@@ -24,11 +29,10 @@
         <Reference Include="FitFileConverter.ClassLibrary, Culture=neutral">
             <HintPath>..\..\Libs\FitFileConverter.ClassLibrary.dll</HintPath>
         </Reference>
-        <ProjectReference Include="..\..\src\GarminWeightScaleUploader.Lib\GarminWeightScaleUploader.Lib.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-        <Using Include="Xunit"/>
-        <Using Include="GarminWeightScaleUploader.Lib"/>
+        <Using Include="Xunit" />
+        <Using Include="GarminWeightScaleUploader.Lib" />
     </ItemGroup>
 </Project>

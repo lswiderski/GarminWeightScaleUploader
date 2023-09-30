@@ -30,7 +30,8 @@ public class GarminWeightScaleUploaderTests : IDisposable
             PhysiqueRating = 9,
             MetabolicAge = 28,
             Email = Environment.GetEnvironmentVariable("EMAIL")!,
-            Password = Environment.GetEnvironmentVariable("PASSWORD")!
+            Password = Environment.GetEnvironmentVariable("PASSWORD")!,
+            
         };
     }
 

@@ -195,6 +195,7 @@ namespace GarminConnectClient.Lib.Services
 
         public async Task<(CookieContainer, HttpClientHandler)> Authenticate(string userName, string password)
         {
+            httpClient.DefaultRequestHeaders.Clear();
             httpClient.DefaultRequestHeaders.Add("user-agent", USER_AGENT);
             var data = await httpClient.GetStringAsync(CONNECT_MODERN_HOSTNAME);
 

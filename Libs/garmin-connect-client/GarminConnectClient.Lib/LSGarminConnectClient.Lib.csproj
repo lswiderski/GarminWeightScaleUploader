@@ -13,7 +13,7 @@
     <Authors>lswiderski</Authors>
     <Company>lswiderski</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.2.3</Version>
+    <Version>1.2.4</Version>
     <DocumentationFile>.\GarminConnectClient.Lib.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
